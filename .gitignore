@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (keep structure, ignore large files)
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.pkl
+data/pseudo_labels/*.pkl
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/pseudo_labels/.gitkeep
+
+# Models
+models/baseline/*.pkl
+models/baseline/*.joblib
+models/advanced/*.pt
+models/advanced/*.bin
+!models/baseline/.gitkeep
+!models/advanced/.gitkeep
+
+# Outputs
+outputs/predictions/*.csv
+outputs/dossiers/*.json
+outputs/reports/*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml

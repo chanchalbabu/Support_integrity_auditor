@@ -1,0 +1,35 @@
+[2026-06-12 16:25:36] INFO src.pseudo_labeling.signal_rule_based — Running rule-based scoring on 1 tickets...
+[2026-06-12 16:25:40] INFO src.pseudo_labeling.signal_rule_based — Rule-based scoring complete. Distribution:
+rule_severity
+Critical    1
+[2026-06-12 16:29:08] INFO src.pseudo_labeling.signal_rule_based — Running rule-based scoring on 1 tickets...
+[2026-06-12 16:29:08] INFO src.pseudo_labeling.signal_rule_based — Rule-based scoring complete. Distribution:
+rule_severity
+Critical    1
+[2026-06-12 16:30:05] INFO src.pseudo_labeling.signal_rule_based — Running rule-based scoring on 1 tickets...
+[2026-06-12 16:30:05] INFO src.pseudo_labeling.signal_rule_based — Rule-based scoring complete. Distribution:
+rule_severity
+Low    1
+[2026-06-12 16:30:28] INFO src.pseudo_labeling.signal_rule_based — Running rule-based scoring on 1 tickets...
+[2026-06-12 16:30:28] INFO src.pseudo_labeling.signal_rule_based — Rule-based scoring complete. Distribution:
+rule_severity
+Low    1
+[2026-06-12 16:30:39] INFO src.utils.data_loader — Generated synthetic dataset: 500 tickets.
+[2026-06-12 16:30:39] INFO src.utils.data_loader — Validating and cleaning dataset...
+[2026-06-12 16:30:39] INFO src.utils.data_loader — Cleaned dataset: 500 → 500 rows.
+[2026-06-12 16:30:39] INFO src.pseudo_labeling.signal_rule_based — Running rule-based scoring on 500 tickets...
+[2026-06-12 16:30:41] INFO src.pseudo_labeling.signal_rule_based — Rule-based scoring complete. Distribution:
+rule_severity
+Low         236
+Critical    164
+Medium       50
+High         50
+[2026-06-12 16:30:41] INFO src.pseudo_labeling.signal_resolution_time — Resolution time distribution fitted.
+  Critical threshold (≤ 1.6h)
+  High threshold    (≤ 3.6h)
+  Medium threshold  (≤ 42.2h)
+[2026-06-12 16:30:41] INFO src.pseudo_labeling.signal_resolution_time — Resolution-time scoring complete. Distribution:
+Low         175
+Medium      150
+High         99
+Critical     76
