@@ -462,7 +462,7 @@ def page_batch():
             return ""
 
         if "mismatch_label" in display_df.columns:
-            styled = display_df.style.applymap(color_mismatch, subset=["mismatch_label"])
+            styled = display_df.style.map(color_mismatch, subset=["mismatch_label"])
             st.dataframe(styled, use_container_width=True, height=400)
         else:
             st.dataframe(display_df, use_container_width=True, height=400)
